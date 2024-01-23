@@ -1,0 +1,55 @@
+body
+{
+	background-color: blueviolet;
+}
+h1
+{
+	color: red
+	font-size:40px;
+	text-align: center;
+
+}
+h2,h3
+{
+	color: greenyellow;
+}
+
+div
+{
+	background-color: seagreen;
+	border: 7px solid yellowgreen;
+	width: 75%
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 5%;
+	padding: 3%;
+	color: whitesmoke;
+	border-radius: 5%;
+}
+.groupe1
+{
+	background-color: red;
+}
+.groupe2
+{
+	background-color:#138ea5;
+}
+
+.b1 {
+	background-color: black;/*couleur de fond */
+	color: #41f332;/*couleur du texte*/
+    border: none;/*pas de bordure*/
+    border-radius: 5px;/*coins arrondis*/
+    padding: 10px 20px;/*espace interieur du bouton*/
+    text-align: center;/*alignement au texte du centre*/
+    margin: 10px/*marge exterieur pour espacer le bouton */
+    cursor:pointer; /*curseur de souris pointer au survol*/
+    transition: color 0.3s ease; /*changement de couleur du survol*/
+    width: 150px;
+        }
+
+    /*style du bouton au survol */
+    .b1:hover{
+       color: #c6f332; /* Nouvelle couleur de texte au survol */
+       background-color: darkred;
+    }
